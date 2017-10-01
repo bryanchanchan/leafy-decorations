@@ -5,8 +5,8 @@ html {
 .masthead {
   background-image: url("../images/leaf-bg.svg");
   background-color: #588477;
+  border-bottom: 3px solid #2d5a4d;
 }
-
 
 .logo {
   text-align: center;
@@ -34,9 +34,10 @@ html {
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  background-image: linear-gradient(rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-size: cover;
   background-position: center bottom;
+  border-bottom: 3px solid #145b1d;
 }
 
 .banner-content {
